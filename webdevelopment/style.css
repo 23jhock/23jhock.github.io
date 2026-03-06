@@ -37,3 +37,10 @@ a:hover {
   color:#ffefcd;
   border-radius: 5px;
 }
+
+.list {
+  color: #141e35;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+}
