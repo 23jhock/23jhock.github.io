@@ -25,6 +25,15 @@ p {
 }
 
 a:hover {
-  color: #066c74;
+  color: #ffefcd;
   font-size: 18px;
+}
+
+.resumeButton {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  background-color: #2a406e;
+  color:#ffefcd;
+  border-radius: 5px;
 }
