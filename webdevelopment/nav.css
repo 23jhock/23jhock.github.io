@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #ffefcd;
+  color: #2a406e;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: #2a406e;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #141e35;
+}
+
+header img {
+  height: 100px;
+  width: auto;
+}
+
+/* Copied css from style.css */
+body {
+    background-color: #ffefcd; 
+}
+
+h1 {
+  color: #2a406e;
+  font-size: 30px;
+}
+
+h3 {
+    color: #2a406e;
+    font-size: 20px;
+}
+
+p {
+  color: #2a406e;
+  font-size: 20px;
+}
+
+.hero {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+} 
+
+.resumeButton {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  background-color: #2a406e;
+  color:#ffefcd;
+  border-radius: 5px;
+}
+
+.list {
+  color: #141e35;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+}
