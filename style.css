@@ -1,0 +1,62 @@
+body {
+    background-color: #ffefcd; 
+}
+
+h1 {
+  color: #2a406e;
+  font-size: 30px;
+}
+
+h3 {
+    color: #2a406e;
+    font-size: 20px;
+}
+
+p {
+  color: #2a406e;
+  font-size: 20px;
+}
+
+.hero {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+a:hover {
+  color: #ffefcd;
+  font-size: 18px;
+}
+
+.resumeButton {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  background-color: #2a406e;
+  color:#ffefcd;
+  border-radius: 5px;
+}
+
+.list {
+  color: #141e35;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.reflection {
+  border: 2px solid rgba(0, 0, 0, 0.678);
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #ffefcd;
+}
+
+.reflection p:first-of-type::first-letter {
+    font-weight: bold;
+    color: #141e35;
+}
+
+.reflection p {
+    text-indent: 40px;
+}
