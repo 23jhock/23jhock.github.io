@@ -111,7 +111,7 @@ footer img {
     font-family: "Times new Roman", 'Times New Roman', Times, serif;
   }
 
-  header, nav, .resumeButton, footer img, footer a {
+  header, nav, .resumeButton, footer img, footer a, img, video {
     display: none !important;
   }
 
@@ -119,7 +119,17 @@ footer img {
     color: black !important;
   }
 
-  h3 {
-    font-size: 18px;
+  .list {
+    font-size: 12px;
   }
+
+  p {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+
 }
