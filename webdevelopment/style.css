@@ -92,3 +92,34 @@ a:hover {
   height: 200px;
   border-radius: 10px;
 }
+
+footer img {
+  height: 15px;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+@media print {
+  @page {
+    margin: 1in;
+  }
+
+  body {
+    background-color: white;
+    color: black;
+    font-family: "Times new Roman", 'Times New Roman', Times, serif;
+  }
+
+  header, nav, .resumeButton, footer img, footer a {
+    display: none !important;
+  }
+
+  h1, h3, p, li, footer {
+    color: black !important;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
