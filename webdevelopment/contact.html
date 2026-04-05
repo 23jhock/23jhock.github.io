@@ -12,7 +12,7 @@
     <head>
         <!-- Defines char encoding, layout, title -->
         <meta charset="utf-8">
-        <title>Contact</title>
+        <title>Contact Me</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Insert css after href -->
         <link rel="stylesheet" href="nav.css">
@@ -34,22 +34,46 @@
         </header>
 
         <h1>
-            Welcome! Thanks for checking out my resume. - Jacob Hock
+            Contact me!
         </h1>
         
-        <h3>
-            As a current student in IT, I want to make technology more accessible for all. 
-            I am focused and passionate about accessibility in technology, both in traditional and broader access.
-            Whether it be screen readers or teaching people how to interact with technology and making tools to ease the daily annoyances, 
-            I want to help anyone who can see use from technology. In addition, I am very passionate about learning. 
-            I hope to keep learning past my traditional schooling and well into my career. 
-            As technology is a very fast moving and constantly evolving topic, persistent evolution alongside it is very important to me. 
-        </h3>
-
         <p>
-            <!-- Unsure what to put here for now -->
+            Have a question or want to reach out? Fill out the form below!
         </p>
 
+        <form action="jchpfv@umsystem.edu" method="post" class="contact-form" enctype="text/plain">
+            <div class="form">
+                <label for="title">Title</label>
+                <select id="title" name="title" required>
+                    <option value="" disabled selected>Choose a title</option>
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="mrs">Mrs.</option>
+                    <option value="dr">dr.</option>
+                    <option value="other">other.</option>
+                </select>
+
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="inquiry-type">Type of Inquiry</label>
+                <select id="inquiry-type" name="inquiry-type" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="general">General Question</option>
+                    <option value="project">Career Inquiry</option>
+                    <option value="coffee">Let's Chat!<option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+            
+                <button type="submit" class="resumeButton">Submit</button>
+            </div>
+        </form>
+            
         <footer>
             Phone: 314 347 6077
             <img src="media/phone.png" alt="Phone Icon"> 
