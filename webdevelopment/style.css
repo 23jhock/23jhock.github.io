@@ -71,9 +71,11 @@ a:hover {
 
 .personal-img {
   object-position: right;
+  max-width: 100%;
+  height: auto;
 }
 
-.about-section {
+/* .about-section {
   display: flex;
   align-items: flex-start;
   gap: 40px;
@@ -85,6 +87,37 @@ a:hover {
   align-items: flex-start;
   gap: 40px;
   margin-bottom: 50px;
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 20px;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.about-section2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-section{
+    grid-template-columns: 2fr 1fr;
+  }
+  .about-section2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  h1, .resumeButton{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .career-logo {
