@@ -27,3 +27,38 @@ header img {
   height: 50px;
   width: auto;
 }
+
+#menu-toggle, .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #2a406e;
+  }
+
+  nav ul {
+    display: none; 
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #ffefcd;
+    border-top: 1px solid #2a406e;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  #menu-toggle:checked ~ ul {
+    display: flex;
+  }
+}
