@@ -1,8 +1,8 @@
 <!--
   Name: Jacob Hock
-  Date: 4/2/2026
+  Date: 4/21/2026
   Course: IS_LT-4355
-  Description: Favicon/Print
+  Description: Career Page/Hamburger
 -->
 
 <!-- Declares page -->
@@ -23,6 +23,8 @@
      <body>
         <header>
             <img src="media/logo.png" alt="Your Site Logo">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <input type="checkbox" id="menu-toggle">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -34,39 +36,76 @@
             </nav>
         </header>
         
-        <div class="list">
-            <p>
-                Ozark Mountain Biscuit & Bar (Columbia, MO) Sept 2025-Present:  
-                Line Cook
-            </p>
-
-            <div class="list">
-                <ul>
-                    <li>Worked in a fast-paced, high-volume kitchen with frequent full dining room and rushes</li>
-                    <li>Prepared dishes in a scratch kitchen, following recipes and quality standards from raw and local ingredients</li>
-                    <li>Performed under pressure while maintaining attention to detail while multitasking and sustaining speed during
-                    peak service hours</li>
-                    <li>Collaborated to ensure organized workflow and timely, synchronized order execution</li>
-                </ul>
+        <main>
+            <h1>Career Experiences</h1>
+            
+            <div class="anchor-nav">
+                <a href="#ozark">Ozark Mountain</a> | 
+                <a href="#panera">Panera Bread</a> | 
+                <a href="#shamrock">The Shamrock</a> | 
+                <a href="#aerotigers">Aerotigers</a> | 
+                <a href="#3dprinting">3D Printing Club</a>
             </div>
 
-            <img src="media/image3.png" class="career-logo" alt="Logo of Ozark Mountain Biscuit & Bar">
+            <div class="career-grid">
+                <section id="ozark" class="career-item">
+                    <div class="career-text">
+                        <h3>Ozark Mountain Biscuit & Bar</h3>
+                        <p>Line Cook | Sept 2025–Present</p>
+                        <ul>
+                            <li>Worked in a fast-paced, high-volume scratch kitchen.</li>
+                            <li>Prepared dishes using local ingredients while maintaining quality standards.</li>
+                        </ul>
+                    </div>
+                    <img src="media/image3.png" class="career-logo" alt="Ozark Mountain Logo">
+                </section>
 
-            <p>
-                Panera Bread (St. Louis, MO) June 2021-2024:
-                Team Lead
-            </p>
+                <section id="panera" class="career-item">
+                    <div class="career-text">
+                        <h3>Panera Bread</h3>
+                        <p>Team Lead | 2021–2024</p>
+                        <ul>
+                            <li>Managed cash handling and ensured positive customer service.</li>
+                            <li>Trained new team members on multiple floor positions.</li>
+                        </ul>
+                    </div>
+                    <img src="media/image4.png" class="career-logo" alt="Panera Bread Logo">
+                </section>
 
-            <div class="list">
-                <ul>
-                    <li>Lead cashier, managed and handled cash, ensured accurate sales records, and carried out efficient and positive
-                    Customer Service experience</li>
-                    <li>Cross-trained to all floor positions in order to aid during rushes</li>
-                    <li>Trained new team members on multiple positions</li>
-                </ul>
+                <section id="shamrock" class="career-item">
+                    <div class="career-text">
+                        <h3>The Shamrock</h3>
+                        <p>Magazine Layout & Design | 2023–Present</p>
+                        <ul>
+                            <li>Graphic design and template creation for engineering magazine.</li>
+                            <li>Conducted article research and writing.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="aerotigers" class="career-item">
+                    <div class="career-text">
+                        <h3>Aerotigers (AIAA)</h3>
+                        <p>Build Team | 2023–2024</p>
+                        <ul>
+                            <li>Utilized Solidworks for aerospace problem-solving.</li>
+                            <li>Collaborated on the Design/Build/Fly competition team.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="3dprinting" class="career-item">
+                    <div class="career-text">
+                        <h3>Mizzou 3D Printing Club</h3>
+                        <p>Secretary | 2023–Present</p>
+                        <ul>
+                            <li>Maintained the roster for all student members.</li>
+                            <li>Managed communications for upcoming meetings and events.</li>
+                        </ul>
+                    </div>
+                </section>
             </div>
-
-            <img src="media/image4.png" class="career-logo" alt="Logo of Panera Bread">
+        </main>
         
         <footer>
             Phone: 314 347 6077
