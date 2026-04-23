@@ -24,10 +24,6 @@ p {
   padding-left: 30px;
 }
 
-a:hover {
-  color: #ffefcd;
-  font-size: 18px;
-}
 
 .resumeButton {
   display: inline-block;
@@ -130,6 +126,48 @@ a:hover {
       flex-direction: row;
       gap: 10px;
   }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #2a406e;
+    background-color: white;
+}
+
+caption, figcaption {
+    font-weight: bold;
+    color: #2a406e;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #2a406e;
+    padding: 12px;
+    text-align: left;
+    color: black;
+}
+
+thead {
+    background-color: #2a406e;
+    color: #ffefcd;
+}
+
+thead th {
+    color: #ffefcd;
+}
+
+tfoot {
+  background-color: #ffefcd;
+}
+
+tbody tr:nth-child(1), 
+tbody tr:nth-child(3) {
+    background-color: #f2e1bc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
 }
 
 .career-logo {
