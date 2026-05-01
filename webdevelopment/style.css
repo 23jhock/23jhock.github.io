@@ -1,10 +1,13 @@
 body {
-    background-color: #ffefcd; 
+    background-color: #ffefcd;
+    font-family: 'Lexend', sans-serif;
 }
 
 h1 {
-  color: #2a406e;
-  font-size: 30px;
+    color: #2a406e;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 h3 {
